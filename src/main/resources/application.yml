@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+server:
+  port: 9001
+
+comment.avatar: /images/avatar.png
+
+logging:
+  level:
+    com:
+      lrm: debug
+
