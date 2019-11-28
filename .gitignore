@@ -1,3 +1,5 @@
 .idea/
 target/
 blog.iml
+log/
+log/blog-dev.log
