@@ -15,5 +15,8 @@ logging:
     com.lrm: debug
   file: log/blog-dev.log
 
-
+file:
+  filePath: "C:\\Users\\linyk3\\Desktop\\imageFile\\"
+  download:
+    prefix: "http://localhost:9001/image/download/"
 

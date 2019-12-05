@@ -15,7 +15,10 @@ logging:
     com.lrm: info
   file: log/blog-pro.log
 
-
+file:
+  filePath: "/home/linyk3/imageFile/"
+  download:
+    prefix: "http://linyk3.club:9001/image/download/"
 
 
 
