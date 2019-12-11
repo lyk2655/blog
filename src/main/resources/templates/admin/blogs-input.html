@@ -69,9 +69,7 @@
 
         <div class="required field">
           <div id="md-content" style="z-index: 1 !important;">
-            <textarea placeholder="博客内容" name="content" style="display: none" th:text="*{content}">
-
-            </textarea>
+            <textarea placeholder="博客内容" name="content" style="display: none" th:text="*{content}"></textarea>
           </div>
         </div>
 
@@ -197,7 +195,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
   <!--/*/</th:block>/*/-->
-  console.log('BBBBBBBBBBBBBBBBB')
 
 
   <script>
@@ -217,7 +214,6 @@
                         }
       });
     });
-
     $('.menu.toggle').click(function () {
       $('.m-item').toggleClass('m-mobile-hide');
     });
@@ -278,6 +274,7 @@
         }
       }
     });
+
   </script>
 </body>
 </html>
