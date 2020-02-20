@@ -18,5 +18,5 @@ comment.avatar: /images/avatar.png
 logging:
   level:
     com:
-      lrm: debug
+      linyk3: debug
 
