@@ -12,8 +12,8 @@ spring:
 logging:
   level:
     root: warn
-    com.lrm: info
-  file: log/blog-pro.log
+    com.linyk3: info
+  file: log/server.log
 
 file:
   filePath: "/home/linyk3/imageFile/"
